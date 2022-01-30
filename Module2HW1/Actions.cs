@@ -7,7 +7,7 @@ namespace Module2HW1
 {
 	public static class Actions
 	{
-		private static Logger logger = Logger.getInstance();
+		private static readonly Logger logger = Logger.getInstance();
 
 		public static Result StartMethod()
 		{

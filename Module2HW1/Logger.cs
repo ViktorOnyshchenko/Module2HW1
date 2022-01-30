@@ -8,8 +8,8 @@ namespace Module2HW1
 	public class Logger
 	{
 		private const int Capacity = 20;
-		private static Logger logger;
-		private readonly Log[] logs = default;
+		private static Logger? logger;
+		private readonly Log[] logs;
 		private int length;
 
 		public static Logger getInstance()

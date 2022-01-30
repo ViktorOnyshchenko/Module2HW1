@@ -15,7 +15,7 @@ namespace Module2HW1
 		{
 			time = default;
 			type = default;
-			message = default;
+			message = "";
 		}
 
 		public Log(DateTime time, LogType type, string message)

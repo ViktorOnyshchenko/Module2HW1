@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Module2HW1
 {
-	public class Program
+	public static class Program
 	{
 		public static void Main()
 		{
