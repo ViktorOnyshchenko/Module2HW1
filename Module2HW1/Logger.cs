@@ -33,6 +33,7 @@ namespace Module2HW1
 			{
 				throw new ArgumentOutOfRangeException("Run out of space for logs!");
 			}
+            Console.WriteLine(log.ToString());
 			logs[length++] = log;
 		}
 

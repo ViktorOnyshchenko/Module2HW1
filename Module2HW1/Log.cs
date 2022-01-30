@@ -11,13 +11,6 @@ namespace Module2HW1
 		private readonly LogType type;
 		private readonly string message;
 
-		public Log()
-		{
-			time = default;
-			type = default;
-			message = "";
-		}
-
 		public Log(DateTime time, LogType type, string message)
 		{
 			this.time = time;

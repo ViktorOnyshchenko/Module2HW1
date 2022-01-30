@@ -43,7 +43,6 @@ namespace Module2HW1
 					break;
 				}
 			}
-			logger.printToConsole();
 			logger.printToFile();
 			Console.ReadKey();
 		}

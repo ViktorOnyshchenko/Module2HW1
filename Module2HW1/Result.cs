@@ -20,12 +20,6 @@ namespace Module2HW1
 			get => message;
 		}
 
-		public Result()
-		{
-			status = default;
-			message = "";
-		}
-
 		public Result(bool status, string message)
 		{
 			this.status = status;
